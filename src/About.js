@@ -20,7 +20,10 @@ export default function Home() {
             <Col xs={12} sm={4} className="person-wrapper">
                     <Image src={Kodflix} roundedCircle className="About-project-pic" />
                     <h3>Kodflix</h3>
-                    <p>Kodflix is a Netflix clone and this was my first ever project, that was built out using React, JavaScript ES6+, HTML5, CSS3 on the frontend and Node & Express on the backend. Used modern features such as Grid (CSS) and stateless components (React Hooks).</p>
+                    <p>Kodflix is a Netflix clone and this was my first ever project, that was built out using:
+                        <li> React, JavaScript ES6+, HTML5, CSS3</li>
+                        <li> Node & Express on the backend.</li> 
+                        Used modern features such as Grid (CSS) and stateless components (React Hooks).</p>
                 </Col>
                 <Col xs={12} sm={4} className="person-wrapper">
                     <Image src={Martini} roundedCircle className="About-project-pic" />   
