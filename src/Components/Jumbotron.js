@@ -17,8 +17,8 @@ export default function Jumbotron() {
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <Container>
-                <h1>Welcome</h1>
-                <p>Check me out yey</p>
+                <h1>Welcome to My portfolio</h1>
+                <p>A Recruiter by day, coder by night, I shall run the rooftops of London and fight crime with all my MIGHT!</p>
             </Container>
         </Jumbo>
     </Styles >
