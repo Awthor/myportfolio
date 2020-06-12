@@ -20,7 +20,7 @@ export default function Home() {
             <Row className="show-grid text-center">
             <Col xs={12} sm={4} className="person-wrapper">
                     <Image src={Kodflix} roundedCircle className="About-project-pic" />
-                    <h3>Kodflix</h3>
+                    <h3>Kodflix<!/h3>
                     <p>Kodflix is a Netflix clone and this was my first ever project, that was built out using:
                         <li> React</li>
                         <li> JavaScript</li>
