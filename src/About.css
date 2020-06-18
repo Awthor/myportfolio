@@ -20,7 +20,17 @@
     border-radius: 0;
     background-color: #2892D7;
   }
+
+.projects{
+  margin-bottom: 20px;
+}
+
+.carousel {
+  height:360px;
+  }
   
-h3 {
-    margin-bottom: 1em;
+  .carousel-inner .item .img {
+  height:360px;
+  object-fit: contain;
+  
   }
