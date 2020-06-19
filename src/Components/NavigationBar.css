@@ -1,5 +1,5 @@
 nav.navbar, .navbar-default {
-    background-color: rgb(141, 141, 141) !important;
+    background-color: black !important;
     width: 100%;
   }
   
@@ -49,3 +49,4 @@ nav.navbar, .navbar-default {
     color: white;
     background-color: transparent;
   }
+ 

@@ -5,14 +5,14 @@ import './NavigationBar.css'
 
 const Styles = styled.div`
 .navbar {
-    background-color: #e9ecef;
+    background-color: rgb(95, 174, 31);
   }
   
 a, .navbar-brand, .navbar-nav .nav-link {
     color: #ffffff;
     
 &:hover {
-    color: black;
+    color: white;
     }
 }
 `;

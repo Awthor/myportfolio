@@ -19,7 +19,7 @@ export default function Home() {
             </Jumbotron>
             
             <CardColumns>
-                <Card>
+                <Card border="secondary">
                     <Card.Img variant="top" src={Kodflix} />
                     <Card.Body>
                         <Card.Title>Kodflix Project</Card.Title>
@@ -29,7 +29,7 @@ export default function Home() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card className="p-3">
+                <Card border="secondary" className="p-3">
                     <blockquote className="blockquote mb-0 card-body">
                         <p>
                             Aaron is an excellent IT recruitment consultant who I have recently work with. 
@@ -42,7 +42,19 @@ export default function Home() {
                         </footer>
                     </blockquote>
                 </Card>
-                <Card>
+                <Card border="secondary" >
+                    <Card.Body>
+                        <Card.Text>
+                            I have worked with Aaron both as a hiring manager and as a candidate and I must say it is very rare to find such a detail-focused, 
+                            no-nonsense, sharp recruiter in the business nowadays. Aaron has an extensive network of connections that he curates carefully and 
+                            therefore he can leverage this pre-emptively as soon as a client's or candidate's need arises.
+                        </Card.Text>
+                        <Card.Text>
+                            <small className="text-muted">Alfonso Ferrandez - CTO | Adviser | Mentor | Founder | Lecturer</small>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>    
+                <Card border="secondary" >
                     <Card.Img variant="top" src={Me} />
                     <Card.Body>
                         <Card.Title>Who am I?</Card.Title>
@@ -60,11 +72,8 @@ export default function Home() {
                                 My goal is to become synonymous within the PropTech market helping Real Estate companies shape and grow their technology teams.{' '}
                         </Card.Text>
                     </Card.Body>
-                    {/* <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer> */}
                 </Card>
-                <Card>
+                <Card border="secondary">
                     <Card.Img variant="top" src={DrinkMeApp} />
                     <Card.Body>
                         <Card.Title>DrinkMeApp</Card.Title>
@@ -82,7 +91,7 @@ export default function Home() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card className="text-left">
+                <Card border="secondary" className="text-left">
                     <blockquote className="blockquote mb-0 card-body">
                         <p>
                             Aaron has helped me fill a number of roles over the past couple of years. 
@@ -96,20 +105,7 @@ export default function Home() {
                             </small>
                         </footer>
                     </blockquote>
-                </Card>
-                <Card>
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
-                        </Card.Text>
-                        <Card.Text>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+                </Card>  
             </CardColumns>
         </Container>
     )
