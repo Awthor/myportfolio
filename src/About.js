@@ -12,7 +12,7 @@ export default function Home() {
         <Container>
             <Jumbotron>
                 <h2>Welcome to My Portfolio</h2>
-                <p>Build with React, JavaScript, CSS, React-Bootstrap, Bootstrap & HTML</p>
+                <p>Built with React, JavaScript, CSS, HTML and React-Bootstrap</p>
                 <Link to="/contact">
                     <Button bsStyle="primary">Contact Me</Button>
                 </Link>
@@ -85,7 +85,7 @@ export default function Home() {
                             </p>
                             <p>
                                 This application was built using React, (Hooks, Components, Props,
-                                Functions and State Management),  
+                                Functions),  
                                 JavaScript, ES6+, HTML5, CSS3 and 3rd party API's  
                             </p>
                         </Card.Text>

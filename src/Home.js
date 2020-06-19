@@ -9,27 +9,37 @@ import DrinkMeApp from './Assets/DrinkMeApp.png';
 export default function Home() {
     return (
         <div>
-            <Container>
+            <Container >
                 <h2>Home</h2>
                 <Row>
                     <Col xs={12} sm={8} className="main-section">
-                        <p>I spend a lot of time walking around in the woods and talking to trees, and squirrels,
-                        and little rabbits and stuff. The secret to doing anything is believing that you can do it.
-                        Anything that you believe you can do strong enough, you can do. Anything. As long as you believe.
-                        Just go out and talk to a tree. Make friends with it. I guess that would be considered a UFO.
-                            A big cotton ball in the sky. Tree trunks grow however makes them happy. In nature, dead trees are just as normal as live trees.</p>
+                    <p>
+                                As Associate Director for WSS, I joined to set up and run the WSS PropTech Software & Engineering practice. 
+                                With a background in software development and over six years in technology recruitment I have assisted start-up, 
+                                SME’s and Global organisations with planning, attracting talent and building their software development teams.
+                            </p>
+                            <p>
+                                WHAT IS PROPTECH? 
+                                 <br></br>
+                                Very simply it is Technology within the Real Estate/Property industry.
+                            </p>
+                                My goal is to become synonymous within the PropTech market helping Real Estate companies shape and grow their technology teams.
                     </Col>
                     <Col className="sidebar-section">
                         <Link to="/About">
-                            <Image src={Kodflix} thumbnail  className="project-pic" />
+                            <Image  src={Kodflix} thumbnail  className="project-pic" />
                             <Image src={DrinkMeApp} thumbnail  className="project-pic" />
                             <Image src={Me} thumbnail  className="project-pic" />
                         </Link>
-                        <p>I spend a lot of time walking around in the woods and talking to trees, and squirrels,
-                        and little rabbits and stuff. The secret to doing anything is believing that you can do it.
-                        Anything that you believe you can do strong enough, you can do. Anything. As long as you believe.
-                        Just go out and talk to a tree. Make friends with it. I guess that would be considered a UFO. A big cotton
-                            ball in the sky. Tree trunks grow however makes them happy. In nature, dead trees are just as normal as live trees.</p>
+                        <p>     Synopsis of projects here - As Associate Director for WSS, I joined to set up and run the WSS PropTech Software & Engineering practice. 
+                                With a background in software development and over six years in technology recruitment I have assisted start-up, 
+                                SME’s and Global organisations with planning, attracting talent and building their software development teams.
+                            </p>
+                            <p>
+                                WHAT IS PROPTECH? 
+                                 <br></br>
+                                Very simply it is Technology within the Real Estate/Property industry.
+                            </p>
                     </Col>
                 </Row>
             </Container>
