@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import NoMatch from './NoMatch';
-import Layout from './Components/Layout';
-import NavigationBar from './Components/NavigationBar'
-import Jumbotron from './Components/Jumbotron';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import NoMatch from './Components/NoMatch/NoMatch';
+import Layout from './Components/Layout/Layout';
+import NavigationBar from './Components/NavigationBar/NavigationBar'
+import Jumbotron from './Components/Jumbotron/Jumbotron';
 
 class App extends Component {
   render() {

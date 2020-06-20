@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Jumbotron, Card, CardColumns, Container, Row, Col, Image, Button } from 'react-bootstrap/';
+import { Jumbotron, Card, CardColumns, Container, Button } from 'react-bootstrap/';
 import './About.css';
-import DrinkMeApp from './Assets/DrinkMeApp.png';
-import Martini from './martini.png';
+import DrinkMeApp from './DrinkMeApp.png';
 import Me from './Me.jpg';
 import Kodflix from './kodflix.jpg'
 

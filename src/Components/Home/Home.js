@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './Home.css';
-import Kodflix from './kodflix.jpg';
-import Me from './Me.jpg';
-import DrinkMeApp from './Assets/DrinkMeApp.png';
+import Kodflix from '../About/kodflix.jpg';
+import Me from '../About/Me.jpg';
+import DrinkMeApp from '../About/DrinkMeApp.png';
 
 export default function Home() {
     return (
@@ -27,7 +27,7 @@ export default function Home() {
                     </Col>
                     <Col className="sidebar-section">
                         <Link to="/About">
-                            <Image  src={Kodflix} thumbnail  className="project-pic" />
+                            <Image src={Kodflix} thumbnail  className="project-pic" />
                             <Image src={DrinkMeApp} thumbnail  className="project-pic" />
                             <Image src={Me} thumbnail  className="project-pic" />
                         </Link>
