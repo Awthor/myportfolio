@@ -6,17 +6,17 @@ import DrinkMeApp from './DrinkMeApp.png';
 import Me from './Me.jpg';
 import Kodflix from './kodflix.jpg'
 
-export default function Home() {
+export default function About() {
     return (
         <Container>
-            <Jumbotron>
+            {/* <Jumbotron>
                 <h2>Welcome to My Portfolio</h2>
                 <p>Built with React, JavaScript, CSS, HTML and React-Bootstrap</p>
                 <Link to="/contact">
                     <Button bsStyle="primary">Contact Me</Button>
                 </Link>
-            </Jumbotron>
-            
+            </Jumbotron> */}
+
             <CardColumns>
                 <Card border="secondary">
                     <Card.Img variant="top" src={Kodflix} />
@@ -73,7 +73,7 @@ export default function Home() {
                     </Card.Body>
                 </Card>
                 <Card border="secondary">
-                    <Card.Img variant="top" src={DrinkMeApp} />
+                        <Card.Img variant="top" src={DrinkMeApp} />
                     <Card.Body>
                         <Card.Title>DrinkMeApp</Card.Title>
                         <Card.Text>
