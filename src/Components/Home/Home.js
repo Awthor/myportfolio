@@ -5,6 +5,8 @@ import './Home.css';
 import Kodflix from '../About/kodflix.jpg';
 import Me from '../About/Me.jpg';
 import DrinkMeApp from '../About/DrinkMeApp.png';
+import SocialMedia from './SocialMedia'
+
 
 export default function Home() {
     return (
@@ -12,11 +14,10 @@ export default function Home() {
             <Container >
                 <h2>This Page is Under Constuction</h2>
                 <Row>
-                    <Col xs={12} sm={8} className="main-section">
-
+                    <Col xs={12} sm={12} className="main-section">
                         <Jumbotron>
                             <h2>Welcome to My Portfolio</h2>
-                            <p>Built with React, JavaScript, CSS, HTML and React-Bootstrap</p>
+                            <p>Built with React, JavaScript, CSS, HTML and React-BootStrap</p>
                             <Link to="/contact">
                                 <Button bsStyle="primary">Contact Me</Button>
                             </Link>
@@ -37,7 +38,7 @@ export default function Home() {
                                     <p>
                                         Aaron is an excellent IT recruitment consultant who I have recently work with.
                                         Aaron has excellent technical knowledge in the areas of his work, very transparent, friendly, dedicated, mindful and professional.
-                        </p>
+                            </p>
                                     <footer className="blockquote-footer">
                                         <small className="text-muted">
                                             Mrinal Das <cite title="Source Title"> .NET Developer - Kantar Worldpanel</cite>
@@ -111,21 +112,8 @@ export default function Home() {
                             </Card>
                         </CardColumns>
                     </Col>
-                    <Col className="sidebar-section">
-                        <Link to="/About">
-                            <Image src={Kodflix} thumbnail className="project-pic" />
-                            <Image src={DrinkMeApp} thumbnail className="project-pic" />
-                            <Image src={Me} thumbnail className="project-pic" />
-                        </Link>
-                        <p>    As Associate Director for WSS, I joined to set up and run the WSS PropTech Software & Engineering practice.
-                        With a background in software development and over six years in technology recruitment I have assisted start-up,
-                        SME’s and Global organisations with planning, attracting talent and building their software development teams.
-                            </p>
-                        <p>
-                            WHAT IS PROPTECH?
-                                 <br></br>
-                                Very simply it is Technology within the Real Estate/Property industry.
-                            </p>
+                    <Col>
+                    
                     </Col>
                 </Row>
             </Container>
